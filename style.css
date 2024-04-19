@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+    width:auto;
+    
+
+}
+body{
+    width: auto;
+    height: 100vh;
+    background-color: burlywood;
+    scroll-behavior:none;
+    
+}
+#heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: 2px solid blue;
+}
+#container{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    
+}
+#counterBox{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:10%;
+    background-color:rgb(182, 212, 226);
+    background-blend-mode:soft-light;
+}
+#count{
+    text-align: center;
+    border: 5px solid violet;
+    border-radius: 10px;
+    border-bottom-color:rgb(107, 25, 189);
+    border-top-color: blueviolet;
+    
+}
+#counti{
+    padding:2px;
+    margin-top: 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    
+
+}
+#countd{
+    padding:2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#note{
+    padding:10px;
+    margin-left: 29%;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#footer{
+    font-style: italic;
+}
